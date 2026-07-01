@@ -1,0 +1,16 @@
+{
+  "name": "menu-calorie-scanner",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*",
+    "server",
+    "mobile"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev --workspace=server",
+    "migrate": "npm run migrate --workspace=server",
+    "seed": "npm run seed --workspace=server",
+    "dev:mobile": "npm run start --workspace=mobile"
+  }
+}

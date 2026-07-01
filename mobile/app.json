@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Menu Calorie Scanner",
+    "slug": "menu-calorie-scanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Menu Calorie Scanner needs camera access to scan restaurant menus and QR codes."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "CAMERA",
+        "android.permission.CAMERA"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "Menu Calorie Scanner needs camera access to scan restaurant menus and QR codes.",
+          "enableCodeScanner": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e8bd6d5c-8de3-4edc-8dbb-7e63b787f26b"
+      }
+    }
+  }
+}

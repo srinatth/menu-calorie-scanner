@@ -27,10 +27,10 @@ export function RootNavigator() {
         <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
         <Stack.Screen name="SearchResults" component={SearchResultsScreen} options={{ title: 'Search' }} />
         <Stack.Screen name="DishDetail" component={DishDetailScreen} options={{ title: '' }} />
-        <Stack.Screen name="MenuScan" component={MenuScanScreen} options={{ title: 'Scan Menu', headerTransparent: true, headerTintColor: colors.cardBackground }} />
+        <Stack.Screen name="MenuScan" component={MenuScanScreen} options={{ headerShown: false }} />
         <Stack.Screen name="MenuUploadReview" component={MenuUploadReviewScreen} options={{ title: 'Analyzing Menu', headerBackVisible: false }} />
         <Stack.Screen name="DetectedDishes" component={DetectedDishesScreen} options={{ title: 'Detected Dishes' }} />
-        <Stack.Screen name="QRScan" component={QRScanScreen} options={{ title: 'Scan QR Menu', headerTransparent: true, headerTintColor: colors.cardBackground }} />
+        <Stack.Screen name="QRScan" component={QRScanScreen} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -40,8 +40,6 @@ export const apiClient = {
       headers: body ? { 'Content-Type': 'application/json' } : undefined,
       body: body ? JSON.stringify(body) : undefined,
     }),
-  postForm: <T>(path: string, form: FormData) =>
-    request<T>(path, { method: 'POST', body: form }),
 };
 
 export { BASE_URL };

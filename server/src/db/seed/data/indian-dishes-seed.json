@@ -27,16 +27,53 @@
       "servingSizeDesc": "1 bowl (~250g)",
       "estimationDifficulty": "medium",
       "confidencePct": 80,
-      "commonIngredients": ["Paneer", "Butter", "Tomato puree", "Cream", "Cashew paste", "Onion", "Ginger garlic paste", "Kasuri methi", "Garam masala", "Sugar", "Red chilli powder"],
-      "allergens": [{ "type": "dairy", "certainty": "definite" }, { "type": "nuts", "certainty": "possible" }],
-      "healthScore": 6.0,
-      "healthScoreReasons": ["High fat from butter and cream", "Good protein from paneer", "Moderate carbohydrates"],
+      "commonIngredients": [
+        "Paneer",
+        "Butter",
+        "Tomato puree",
+        "Cream",
+        "Cashew paste",
+        "Onion",
+        "Ginger garlic paste",
+        "Kasuri methi",
+        "Garam masala",
+        "Sugar",
+        "Red chilli powder"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        },
+        {
+          "type": "nuts",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 6,
+      "healthScoreReasons": [
+        "High fat from butter and cream",
+        "Good protein from paneer",
+        "Moderate carbohydrates"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "PBM", "synonymType": "abbreviation" },
-        { "synonym": "Panner Butter Masala", "synonymType": "misspelling" },
-        { "synonym": "Paneer Butter", "synonymType": "alt_name" },
-        { "synonym": "Butter Paneer", "synonymType": "alt_name" }
+        {
+          "synonym": "PBM",
+          "synonymType": "abbreviation"
+        },
+        {
+          "synonym": "Panner Butter Masala",
+          "synonymType": "misspelling"
+        },
+        {
+          "synonym": "Paneer Butter",
+          "synonymType": "alt_name"
+        },
+        {
+          "synonym": "Butter Paneer",
+          "synonymType": "alt_name"
+        }
       ]
     },
     {
@@ -54,14 +91,42 @@
       "servingSizeDesc": "1 bowl (~300g)",
       "estimationDifficulty": "medium",
       "confidencePct": 82,
-      "commonIngredients": ["Chicken", "Butter", "Cream", "Tomato puree", "Cashew paste", "Kasuri methi", "Garam masala", "Ginger garlic paste"],
-      "allergens": [{ "type": "dairy", "certainty": "definite" }, { "type": "nuts", "certainty": "possible" }],
+      "commonIngredients": [
+        "Chicken",
+        "Butter",
+        "Cream",
+        "Tomato puree",
+        "Cashew paste",
+        "Kasuri methi",
+        "Garam masala",
+        "Ginger garlic paste"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        },
+        {
+          "type": "nuts",
+          "certainty": "possible"
+        }
+      ],
       "healthScore": 5.5,
-      "healthScoreReasons": ["High fat, rich creamy gravy", "High protein", "Good satiety"],
+      "healthScoreReasons": [
+        "High fat, rich creamy gravy",
+        "High protein",
+        "Good satiety"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "Murgh Makhani", "synonymType": "alt_name" },
-        { "synonym": "Butter Murgh", "synonymType": "alt_name" }
+        {
+          "synonym": "Murgh Makhani",
+          "synonymType": "alt_name"
+        },
+        {
+          "synonym": "Butter Murgh",
+          "synonymType": "alt_name"
+        }
       ]
     },
     {
@@ -79,12 +144,34 @@
       "servingSizeDesc": "6 pieces (~200g)",
       "estimationDifficulty": "easy",
       "confidencePct": 85,
-      "commonIngredients": ["Chicken", "Yogurt", "Ginger garlic paste", "Red chilli powder", "Garam masala", "Lemon juice", "Mustard oil"],
-      "allergens": [{ "type": "dairy", "certainty": "possible" }],
+      "commonIngredients": [
+        "Chicken",
+        "Yogurt",
+        "Ginger garlic paste",
+        "Red chilli powder",
+        "Garam masala",
+        "Lemon juice",
+        "Mustard oil"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "possible"
+        }
+      ],
       "healthScore": 8.5,
-      "healthScoreReasons": ["High protein", "Low carbohydrates", "Grilled, not fried"],
+      "healthScoreReasons": [
+        "High protein",
+        "Low carbohydrates",
+        "Grilled, not fried"
+      ],
       "source": "icmr_nin",
-      "synonyms": [{ "synonym": "Chicken Tikka Kebab", "synonymType": "alt_name" }]
+      "synonyms": [
+        {
+          "synonym": "Chicken Tikka Kebab",
+          "synonymType": "alt_name"
+        }
+      ]
     },
     {
       "slug": "chicken-biryani",
@@ -101,15 +188,53 @@
       "servingSizeDesc": "1 plate (~420g)",
       "estimationDifficulty": "hard",
       "confidencePct": 88,
-      "commonIngredients": ["Basmati rice", "Chicken", "Yogurt", "Onion", "Tomato", "Ginger garlic paste", "Green chilli", "Mint", "Coriander", "Ghee", "Oil", "Whole spices", "Garam masala", "Lemon"],
-      "allergens": [{ "type": "dairy", "certainty": "definite" }, { "type": "nuts", "certainty": "possible" }],
+      "commonIngredients": [
+        "Basmati rice",
+        "Chicken",
+        "Yogurt",
+        "Onion",
+        "Tomato",
+        "Ginger garlic paste",
+        "Green chilli",
+        "Mint",
+        "Coriander",
+        "Ghee",
+        "Oil",
+        "Whole spices",
+        "Garam masala",
+        "Lemon"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        },
+        {
+          "type": "nuts",
+          "certainty": "possible"
+        }
+      ],
       "healthScore": 6.5,
-      "healthScoreReasons": ["High protein", "High carbohydrates from rice", "High fat from ghee and oil", "Good satiety"],
+      "healthScoreReasons": [
+        "High protein",
+        "High carbohydrates from rice",
+        "High fat from ghee and oil",
+        "Good satiety"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "Chicken Dum Biryani", "synonymType": "alt_name" },
-        { "synonym": "Hyderabadi Biryani", "synonymType": "regional_name" },
-        { "synonym": "Chicken Biriyani", "synonymType": "misspelling" }
+        {
+          "synonym": "Chicken Dum Biryani",
+          "synonymType": "alt_name"
+        },
+        {
+          "synonym": "Hyderabadi Biryani",
+          "synonymType": "regional_name"
+        },
+        {
+          "synonym": "Chicken Biriyani",
+          "synonymType": "misspelling"
+        }
       ]
     },
     {
@@ -127,14 +252,45 @@
       "servingSizeDesc": "1 plate (~380g)",
       "estimationDifficulty": "medium",
       "confidencePct": 78,
-      "commonIngredients": ["Basmati rice", "Mixed vegetables", "Yogurt", "Onion", "Tomato", "Ginger garlic paste", "Mint", "Coriander", "Ghee", "Whole spices", "Garam masala"],
-      "allergens": [{ "type": "dairy", "certainty": "definite" }, { "type": "nuts", "certainty": "possible" }],
+      "commonIngredients": [
+        "Basmati rice",
+        "Mixed vegetables",
+        "Yogurt",
+        "Onion",
+        "Tomato",
+        "Ginger garlic paste",
+        "Mint",
+        "Coriander",
+        "Ghee",
+        "Whole spices",
+        "Garam masala"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        },
+        {
+          "type": "nuts",
+          "certainty": "possible"
+        }
+      ],
       "healthScore": 6.8,
-      "healthScoreReasons": ["Good fiber from vegetables", "Moderate fat", "High carbohydrates"],
+      "healthScoreReasons": [
+        "Good fiber from vegetables",
+        "Moderate fat",
+        "High carbohydrates"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "Vegetable Biryani", "synonymType": "alt_name" },
-        { "synonym": "Veg Dum Biryani", "synonymType": "alt_name" }
+        {
+          "synonym": "Vegetable Biryani",
+          "synonymType": "alt_name"
+        },
+        {
+          "synonym": "Veg Dum Biryani",
+          "synonymType": "alt_name"
+        }
       ]
     },
     {
@@ -152,14 +308,39 @@
       "servingSizeDesc": "1 piece with potato filling (~250g)",
       "estimationDifficulty": "easy",
       "confidencePct": 85,
-      "commonIngredients": ["Rice", "Urad dal", "Potato", "Onion", "Mustard seeds", "Curry leaves", "Turmeric", "Oil", "Ghee"],
-      "allergens": [{ "type": "dairy", "certainty": "possible" }],
+      "commonIngredients": [
+        "Rice",
+        "Urad dal",
+        "Potato",
+        "Onion",
+        "Mustard seeds",
+        "Curry leaves",
+        "Turmeric",
+        "Oil",
+        "Ghee"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "possible"
+        }
+      ],
       "healthScore": 7.2,
-      "healthScoreReasons": ["Fermented batter aids digestion", "Moderate fat", "Good carbohydrate source"],
+      "healthScoreReasons": [
+        "Fermented batter aids digestion",
+        "Moderate fat",
+        "Good carbohydrate source"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "Masala Dosai", "synonymType": "misspelling" },
-        { "synonym": "Mysore Masala Dosa", "synonymType": "regional_name" }
+        {
+          "synonym": "Masala Dosai",
+          "synonymType": "misspelling"
+        },
+        {
+          "synonym": "Mysore Masala Dosa",
+          "synonymType": "regional_name"
+        }
       ]
     },
     {
@@ -177,12 +358,25 @@
       "servingSizeDesc": "2 pieces (~150g)",
       "estimationDifficulty": "easy",
       "confidencePct": 90,
-      "commonIngredients": ["Rice", "Urad dal", "Fenugreek seeds"],
+      "commonIngredients": [
+        "Rice",
+        "Urad dal",
+        "Fenugreek seeds"
+      ],
       "allergens": [],
-      "healthScore": 9.0,
-      "healthScoreReasons": ["Steamed, not fried", "Low fat", "Fermented and easy to digest"],
+      "healthScore": 9,
+      "healthScoreReasons": [
+        "Steamed, not fried",
+        "Low fat",
+        "Fermented and easy to digest"
+      ],
       "source": "icmr_nin",
-      "synonyms": [{ "synonym": "Idly", "synonymType": "misspelling" }]
+      "synonyms": [
+        {
+          "synonym": "Idly",
+          "synonymType": "misspelling"
+        }
+      ]
     },
     {
       "slug": "sambar",
@@ -199,12 +393,33 @@
       "servingSizeDesc": "1 bowl (~200ml)",
       "estimationDifficulty": "easy",
       "confidencePct": 85,
-      "commonIngredients": ["Toor dal", "Tamarind", "Drumstick", "Carrot", "Pumpkin", "Onion", "Tomato", "Sambar powder", "Mustard seeds", "Curry leaves", "Oil"],
+      "commonIngredients": [
+        "Toor dal",
+        "Tamarind",
+        "Drumstick",
+        "Carrot",
+        "Pumpkin",
+        "Onion",
+        "Tomato",
+        "Sambar powder",
+        "Mustard seeds",
+        "Curry leaves",
+        "Oil"
+      ],
       "allergens": [],
       "healthScore": 8.8,
-      "healthScoreReasons": ["High fiber", "Lentil-based protein", "Low fat"],
+      "healthScoreReasons": [
+        "High fiber",
+        "Lentil-based protein",
+        "Low fat"
+      ],
       "source": "icmr_nin",
-      "synonyms": [{ "synonym": "Sambhar", "synonymType": "misspelling" }]
+      "synonyms": [
+        {
+          "synonym": "Sambhar",
+          "synonymType": "misspelling"
+        }
+      ]
     },
     {
       "slug": "dal-tadka",
@@ -221,14 +436,37 @@
       "servingSizeDesc": "1 bowl (~250g)",
       "estimationDifficulty": "easy",
       "confidencePct": 85,
-      "commonIngredients": ["Toor dal", "Ghee", "Cumin", "Garlic", "Onion", "Tomato", "Turmeric", "Red chilli"],
-      "allergens": [{ "type": "dairy", "certainty": "possible" }],
+      "commonIngredients": [
+        "Toor dal",
+        "Ghee",
+        "Cumin",
+        "Garlic",
+        "Onion",
+        "Tomato",
+        "Turmeric",
+        "Red chilli"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "possible"
+        }
+      ],
       "healthScore": 8.2,
-      "healthScoreReasons": ["High protein and fiber from lentils", "Moderate fat from ghee tempering"],
+      "healthScoreReasons": [
+        "High protein and fiber from lentils",
+        "Moderate fat from ghee tempering"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "Dal Fry", "synonymType": "alt_name" },
-        { "synonym": "Yellow Dal Tadka", "synonymType": "alt_name" }
+        {
+          "synonym": "Dal Fry",
+          "synonymType": "alt_name"
+        },
+        {
+          "synonym": "Yellow Dal Tadka",
+          "synonymType": "alt_name"
+        }
       ]
     },
     {
@@ -246,12 +484,36 @@
       "servingSizeDesc": "1 piece (~90g)",
       "estimationDifficulty": "easy",
       "confidencePct": 88,
-      "commonIngredients": ["Refined flour (maida)", "Yogurt", "Butter", "Baking powder", "Salt"],
-      "allergens": [{ "type": "gluten", "certainty": "definite" }, { "type": "dairy", "certainty": "definite" }],
+      "commonIngredients": [
+        "Refined flour (maida)",
+        "Yogurt",
+        "Butter",
+        "Baking powder",
+        "Salt"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "definite"
+        },
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
       "healthScore": 4.8,
-      "healthScoreReasons": ["Made with refined flour", "Added butter", "Low fiber"],
+      "healthScoreReasons": [
+        "Made with refined flour",
+        "Added butter",
+        "Low fiber"
+      ],
       "source": "icmr_nin",
-      "synonyms": [{ "synonym": "Naan Butter", "synonymType": "alt_name" }]
+      "synonyms": [
+        {
+          "synonym": "Naan Butter",
+          "synonymType": "alt_name"
+        }
+      ]
     },
     {
       "slug": "garlic-naan",
@@ -268,12 +530,37 @@
       "servingSizeDesc": "1 piece (~90g)",
       "estimationDifficulty": "easy",
       "confidencePct": 87,
-      "commonIngredients": ["Refined flour (maida)", "Yogurt", "Garlic", "Butter", "Baking powder", "Coriander"],
-      "allergens": [{ "type": "gluten", "certainty": "definite" }, { "type": "dairy", "certainty": "definite" }],
+      "commonIngredients": [
+        "Refined flour (maida)",
+        "Yogurt",
+        "Garlic",
+        "Butter",
+        "Baking powder",
+        "Coriander"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "definite"
+        },
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
       "healthScore": 4.9,
-      "healthScoreReasons": ["Made with refined flour", "Added butter", "Low fiber"],
+      "healthScoreReasons": [
+        "Made with refined flour",
+        "Added butter",
+        "Low fiber"
+      ],
       "source": "icmr_nin",
-      "synonyms": [{ "synonym": "Garlic Naan Bread", "synonymType": "alt_name" }]
+      "synonyms": [
+        {
+          "synonym": "Garlic Naan Bread",
+          "synonymType": "alt_name"
+        }
+      ]
     },
     {
       "slug": "roti",
@@ -290,14 +577,32 @@
       "servingSizeDesc": "1 piece (~40g)",
       "estimationDifficulty": "easy",
       "confidencePct": 90,
-      "commonIngredients": ["Whole wheat flour", "Water", "Salt"],
-      "allergens": [{ "type": "gluten", "certainty": "definite" }],
-      "healthScore": 8.0,
-      "healthScoreReasons": ["Whole wheat, higher fiber than refined flour breads", "Low fat, unleavened"],
+      "commonIngredients": [
+        "Whole wheat flour",
+        "Water",
+        "Salt"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 8,
+      "healthScoreReasons": [
+        "Whole wheat, higher fiber than refined flour breads",
+        "Low fat, unleavened"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "Chapati", "synonymType": "alt_name" },
-        { "synonym": "Phulka", "synonymType": "regional_name" }
+        {
+          "synonym": "Chapati",
+          "synonymType": "alt_name"
+        },
+        {
+          "synonym": "Phulka",
+          "synonymType": "regional_name"
+        }
       ]
     },
     {
@@ -315,14 +620,42 @@
       "servingSizeDesc": "1 plate, 2 bhature with chole (~450g)",
       "estimationDifficulty": "medium",
       "confidencePct": 78,
-      "commonIngredients": ["Chickpeas", "Refined flour", "Yogurt", "Onion", "Tomato", "Ginger garlic paste", "Chole masala", "Oil (deep fried bhature)"],
-      "allergens": [{ "type": "gluten", "certainty": "definite" }, { "type": "dairy", "certainty": "possible" }],
-      "healthScore": 5.0,
-      "healthScoreReasons": ["Deep-fried bread raises fat content", "Chickpeas add protein and fiber", "High calorie density"],
+      "commonIngredients": [
+        "Chickpeas",
+        "Refined flour",
+        "Yogurt",
+        "Onion",
+        "Tomato",
+        "Ginger garlic paste",
+        "Chole masala",
+        "Oil (deep fried bhature)"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "definite"
+        },
+        {
+          "type": "dairy",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 5,
+      "healthScoreReasons": [
+        "Deep-fried bread raises fat content",
+        "Chickpeas add protein and fiber",
+        "High calorie density"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "Chana Bhatura", "synonymType": "alt_name" },
-        { "synonym": "Chole Bhatura", "synonymType": "misspelling" }
+        {
+          "synonym": "Chana Bhatura",
+          "synonymType": "alt_name"
+        },
+        {
+          "synonym": "Chole Bhatura",
+          "synonymType": "misspelling"
+        }
       ]
     },
     {
@@ -340,12 +673,30 @@
       "servingSizeDesc": "1 plate, rajma with rice (~400g)",
       "estimationDifficulty": "easy",
       "confidencePct": 85,
-      "commonIngredients": ["Kidney beans (rajma)", "Rice", "Onion", "Tomato", "Ginger garlic paste", "Cumin", "Garam masala", "Oil"],
+      "commonIngredients": [
+        "Kidney beans (rajma)",
+        "Rice",
+        "Onion",
+        "Tomato",
+        "Ginger garlic paste",
+        "Cumin",
+        "Garam masala",
+        "Oil"
+      ],
       "allergens": [],
-      "healthScore": 8.0,
-      "healthScoreReasons": ["High fiber and protein from kidney beans", "Moderate fat", "Balanced carbohydrates"],
+      "healthScore": 8,
+      "healthScoreReasons": [
+        "High fiber and protein from kidney beans",
+        "Moderate fat",
+        "Balanced carbohydrates"
+      ],
       "source": "icmr_nin",
-      "synonyms": [{ "synonym": "Rajma Rice", "synonymType": "alt_name" }]
+      "synonyms": [
+        {
+          "synonym": "Rajma Rice",
+          "synonymType": "alt_name"
+        }
+      ]
     },
     {
       "slug": "veg-fried-rice",
@@ -362,14 +713,40 @@
       "servingSizeDesc": "1 plate (~300g)",
       "estimationDifficulty": "easy",
       "confidencePct": 80,
-      "commonIngredients": ["Rice", "Mixed vegetables", "Spring onion", "Soy sauce", "Garlic", "Oil", "Pepper"],
-      "allergens": [{ "type": "soy", "certainty": "definite" }, { "type": "gluten", "certainty": "possible" }],
+      "commonIngredients": [
+        "Rice",
+        "Mixed vegetables",
+        "Spring onion",
+        "Soy sauce",
+        "Garlic",
+        "Oil",
+        "Pepper"
+      ],
+      "allergens": [
+        {
+          "type": "soy",
+          "certainty": "definite"
+        },
+        {
+          "type": "gluten",
+          "certainty": "possible"
+        }
+      ],
       "healthScore": 6.5,
-      "healthScoreReasons": ["Vegetable content adds fiber", "Oil and soy sauce add fat and sodium"],
+      "healthScoreReasons": [
+        "Vegetable content adds fiber",
+        "Oil and soy sauce add fat and sodium"
+      ],
       "source": "usda",
       "synonyms": [
-        { "synonym": "Vegetable Fried Rice", "synonymType": "alt_name" },
-        { "synonym": "Veg Fry Rice", "synonymType": "misspelling" }
+        {
+          "synonym": "Vegetable Fried Rice",
+          "synonymType": "alt_name"
+        },
+        {
+          "synonym": "Veg Fry Rice",
+          "synonymType": "misspelling"
+        }
       ]
     },
     {
@@ -387,14 +764,37 @@
       "servingSizeDesc": "1 bowl (~250g)",
       "estimationDifficulty": "medium",
       "confidencePct": 80,
-      "commonIngredients": ["Paneer", "Spinach", "Onion", "Tomato", "Ginger garlic paste", "Cream", "Garam masala"],
-      "allergens": [{ "type": "dairy", "certainty": "definite" }],
+      "commonIngredients": [
+        "Paneer",
+        "Spinach",
+        "Onion",
+        "Tomato",
+        "Ginger garlic paste",
+        "Cream",
+        "Garam masala"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
       "healthScore": 7.5,
-      "healthScoreReasons": ["Spinach adds iron and fiber", "Paneer adds protein", "Moderate fat from cream"],
+      "healthScoreReasons": [
+        "Spinach adds iron and fiber",
+        "Paneer adds protein",
+        "Moderate fat from cream"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "Saag Paneer", "synonymType": "alt_name" },
-        { "synonym": "Spinach Paneer", "synonymType": "alt_name" }
+        {
+          "synonym": "Saag Paneer",
+          "synonymType": "alt_name"
+        },
+        {
+          "synonym": "Spinach Paneer",
+          "synonymType": "alt_name"
+        }
       ]
     },
     {
@@ -412,12 +812,34 @@
       "servingSizeDesc": "1 bowl (~250g)",
       "estimationDifficulty": "medium",
       "confidencePct": 78,
-      "commonIngredients": ["Paneer", "Bell peppers", "Onion", "Tomato", "Kadai masala", "Ginger garlic paste", "Oil"],
-      "allergens": [{ "type": "dairy", "certainty": "definite" }],
+      "commonIngredients": [
+        "Paneer",
+        "Bell peppers",
+        "Onion",
+        "Tomato",
+        "Kadai masala",
+        "Ginger garlic paste",
+        "Oil"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
       "healthScore": 6.8,
-      "healthScoreReasons": ["Bell peppers add fiber and vitamins", "Moderate fat", "Good protein from paneer"],
+      "healthScoreReasons": [
+        "Bell peppers add fiber and vitamins",
+        "Moderate fat",
+        "Good protein from paneer"
+      ],
       "source": "icmr_nin",
-      "synonyms": [{ "synonym": "Karahi Paneer", "synonymType": "alt_name" }]
+      "synonyms": [
+        {
+          "synonym": "Karahi Paneer",
+          "synonymType": "alt_name"
+        }
+      ]
     },
     {
       "slug": "paneer-tikka",
@@ -434,12 +856,34 @@
       "servingSizeDesc": "6 pieces (~180g)",
       "estimationDifficulty": "easy",
       "confidencePct": 85,
-      "commonIngredients": ["Paneer", "Yogurt", "Bell peppers", "Onion", "Ginger garlic paste", "Tikka masala", "Mustard oil"],
-      "allergens": [{ "type": "dairy", "certainty": "definite" }],
+      "commonIngredients": [
+        "Paneer",
+        "Yogurt",
+        "Bell peppers",
+        "Onion",
+        "Ginger garlic paste",
+        "Tikka masala",
+        "Mustard oil"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
       "healthScore": 7.8,
-      "healthScoreReasons": ["Grilled, not fried", "Good protein", "Moderate fat"],
+      "healthScoreReasons": [
+        "Grilled, not fried",
+        "Good protein",
+        "Moderate fat"
+      ],
       "source": "icmr_nin",
-      "synonyms": [{ "synonym": "Tandoori Paneer Tikka", "synonymType": "alt_name" }]
+      "synonyms": [
+        {
+          "synonym": "Tandoori Paneer Tikka",
+          "synonymType": "alt_name"
+        }
+      ]
     },
     {
       "slug": "chicken-tikka-masala",
@@ -456,14 +900,38 @@
       "servingSizeDesc": "1 bowl (~300g)",
       "estimationDifficulty": "medium",
       "confidencePct": 80,
-      "commonIngredients": ["Chicken", "Yogurt", "Tomato puree", "Cream", "Butter", "Garam masala", "Ginger garlic paste", "Kasuri methi"],
-      "allergens": [{ "type": "dairy", "certainty": "definite" }],
+      "commonIngredients": [
+        "Chicken",
+        "Yogurt",
+        "Tomato puree",
+        "Cream",
+        "Butter",
+        "Garam masala",
+        "Ginger garlic paste",
+        "Kasuri methi"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
       "healthScore": 6.2,
-      "healthScoreReasons": ["High protein", "Creamy gravy adds fat", "Moderate carbohydrates"],
+      "healthScoreReasons": [
+        "High protein",
+        "Creamy gravy adds fat",
+        "Moderate carbohydrates"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "CTM", "synonymType": "abbreviation" },
-        { "synonym": "Chicken Tikka Gravy", "synonymType": "alt_name" }
+        {
+          "synonym": "CTM",
+          "synonymType": "abbreviation"
+        },
+        {
+          "synonym": "Chicken Tikka Gravy",
+          "synonymType": "alt_name"
+        }
       ]
     },
     {
@@ -481,14 +949,36 @@
       "servingSizeDesc": "1 bowl (~250g)",
       "estimationDifficulty": "medium",
       "confidencePct": 80,
-      "commonIngredients": ["Black lentils (urad)", "Kidney beans", "Butter", "Cream", "Tomato", "Ginger garlic paste", "Garam masala"],
-      "allergens": [{ "type": "dairy", "certainty": "definite" }],
+      "commonIngredients": [
+        "Black lentils (urad)",
+        "Kidney beans",
+        "Butter",
+        "Cream",
+        "Tomato",
+        "Ginger garlic paste",
+        "Garam masala"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
       "healthScore": 6.5,
-      "healthScoreReasons": ["Lentils add fiber and protein", "Butter and cream add significant fat"],
+      "healthScoreReasons": [
+        "Lentils add fiber and protein",
+        "Butter and cream add significant fat"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "Dal Makhni", "synonymType": "misspelling" },
-        { "synonym": "Black Dal", "synonymType": "alt_name" }
+        {
+          "synonym": "Dal Makhni",
+          "synonymType": "misspelling"
+        },
+        {
+          "synonym": "Black Dal",
+          "synonymType": "alt_name"
+        }
       ]
     },
     {
@@ -506,14 +996,31 @@
       "servingSizeDesc": "1 bowl (~250g)",
       "estimationDifficulty": "easy",
       "confidencePct": 84,
-      "commonIngredients": ["Chickpeas", "Onion", "Tomato", "Ginger garlic paste", "Chana masala spice mix", "Oil", "Coriander"],
+      "commonIngredients": [
+        "Chickpeas",
+        "Onion",
+        "Tomato",
+        "Ginger garlic paste",
+        "Chana masala spice mix",
+        "Oil",
+        "Coriander"
+      ],
       "allergens": [],
-      "healthScore": 8.0,
-      "healthScoreReasons": ["High fiber and protein from chickpeas", "Moderate fat"],
+      "healthScore": 8,
+      "healthScoreReasons": [
+        "High fiber and protein from chickpeas",
+        "Moderate fat"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "Chole", "synonymType": "alt_name" },
-        { "synonym": "Chana", "synonymType": "alt_name" }
+        {
+          "synonym": "Chole",
+          "synonymType": "alt_name"
+        },
+        {
+          "synonym": "Chana",
+          "synonymType": "alt_name"
+        }
       ]
     },
     {
@@ -531,14 +1038,36 @@
       "servingSizeDesc": "2 pieces (~120g)",
       "estimationDifficulty": "easy",
       "confidencePct": 85,
-      "commonIngredients": ["Refined flour", "Potato", "Peas", "Cumin", "Garam masala", "Oil (deep fried)"],
-      "allergens": [{ "type": "gluten", "certainty": "definite" }],
+      "commonIngredients": [
+        "Refined flour",
+        "Potato",
+        "Peas",
+        "Cumin",
+        "Garam masala",
+        "Oil (deep fried)"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "definite"
+        }
+      ],
       "healthScore": 4.5,
-      "healthScoreReasons": ["Deep fried", "Refined flour pastry", "Potato filling adds carbohydrates"],
+      "healthScoreReasons": [
+        "Deep fried",
+        "Refined flour pastry",
+        "Potato filling adds carbohydrates"
+      ],
       "source": "icmr_nin",
       "synonyms": [
-        { "synonym": "Samosas", "synonymType": "misspelling" },
-        { "synonym": "Veg Samosa", "synonymType": "alt_name" }
+        {
+          "synonym": "Samosas",
+          "synonymType": "misspelling"
+        },
+        {
+          "synonym": "Veg Samosa",
+          "synonymType": "alt_name"
+        }
       ]
     },
     {
@@ -556,12 +1085,36 @@
       "servingSizeDesc": "2 pieces in syrup (~100g)",
       "estimationDifficulty": "easy",
       "confidencePct": 85,
-      "commonIngredients": ["Milk solids (khoya)", "Refined flour", "Sugar syrup", "Cardamom", "Ghee (fried)"],
-      "allergens": [{ "type": "dairy", "certainty": "definite" }, { "type": "gluten", "certainty": "possible" }],
+      "commonIngredients": [
+        "Milk solids (khoya)",
+        "Refined flour",
+        "Sugar syrup",
+        "Cardamom",
+        "Ghee (fried)"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        },
+        {
+          "type": "gluten",
+          "certainty": "possible"
+        }
+      ],
       "healthScore": 3.2,
-      "healthScoreReasons": ["High sugar content", "Deep fried", "Dessert, not a staple food"],
+      "healthScoreReasons": [
+        "High sugar content",
+        "Deep fried",
+        "Dessert, not a staple food"
+      ],
       "source": "icmr_nin",
-      "synonyms": [{ "synonym": "Gulab Jamun Sweet", "synonymType": "alt_name" }]
+      "synonyms": [
+        {
+          "synonym": "Gulab Jamun Sweet",
+          "synonymType": "alt_name"
+        }
+      ]
     },
     {
       "slug": "chicken-65",
@@ -578,12 +1131,1605 @@
       "servingSizeDesc": "1 plate (~200g)",
       "estimationDifficulty": "easy",
       "confidencePct": 80,
-      "commonIngredients": ["Chicken", "Yogurt", "Red chilli", "Curry leaves", "Ginger garlic paste", "Corn flour", "Egg", "Oil (deep fried)"],
-      "allergens": [{ "type": "egg", "certainty": "possible" }, { "type": "dairy", "certainty": "possible" }],
-      "healthScore": 6.0,
-      "healthScoreReasons": ["High protein", "Deep fried, adds fat", "Spicy, low carbohydrates"],
+      "commonIngredients": [
+        "Chicken",
+        "Yogurt",
+        "Red chilli",
+        "Curry leaves",
+        "Ginger garlic paste",
+        "Corn flour",
+        "Egg",
+        "Oil (deep fried)"
+      ],
+      "allergens": [
+        {
+          "type": "egg",
+          "certainty": "possible"
+        },
+        {
+          "type": "dairy",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 6,
+      "healthScoreReasons": [
+        "High protein",
+        "Deep fried, adds fat",
+        "Spicy, low carbohydrates"
+      ],
       "source": "icmr_nin",
-      "synonyms": [{ "synonym": "Chilli Chicken 65", "synonymType": "alt_name" }]
+      "synonyms": [
+        {
+          "synonym": "Chilli Chicken 65",
+          "synonymType": "alt_name"
+        }
+      ]
+    },
+    {
+      "slug": "ghee-idli",
+      "canonicalName": "Ghee Idli",
+      "cuisineRegion": "South Indian",
+      "category": "breakfast",
+      "caloriesMin": 180,
+      "caloriesMax": 260,
+      "caloriesEstimate": 220,
+      "proteinG": 5,
+      "carbsG": 38,
+      "fatG": 6,
+      "fiberG": 2,
+      "servingSizeDesc": "2 idlis with ghee",
+      "estimationDifficulty": "easy",
+      "confidencePct": 65,
+      "commonIngredients": [
+        "Idli batter (rice, urad dal)",
+        "Ghee"
+      ],
+      "allergens": [],
+      "healthScore": 6.5,
+      "healthScoreReasons": [
+        "Steamed, low-oil base",
+        "Ghee adds saturated fat",
+        "Good carb source, low protein"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "Ghee Idly",
+          "synonymType": "misspelling"
+        }
+      ]
+    },
+    {
+      "slug": "rava-dosa",
+      "canonicalName": "Rava Dosa",
+      "cuisineRegion": "South Indian",
+      "category": "breakfast",
+      "caloriesMin": 150,
+      "caloriesMax": 220,
+      "caloriesEstimate": 180,
+      "proteinG": 4,
+      "carbsG": 24,
+      "fatG": 8,
+      "fiberG": 1,
+      "servingSizeDesc": "1 dosa",
+      "estimationDifficulty": "easy",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Semolina (rava)",
+        "Rice flour",
+        "Onion",
+        "Cumin",
+        "Oil"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 6,
+      "healthScoreReasons": [
+        "Crispy, pan-fried in oil",
+        "Light, semolina-based",
+        "Moderate fat from oil"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "rava-masala-dosa",
+      "canonicalName": "Rava Masala Dosa",
+      "cuisineRegion": "South Indian",
+      "category": "breakfast",
+      "caloriesMin": 280,
+      "caloriesMax": 380,
+      "caloriesEstimate": 330,
+      "proteinG": 6,
+      "carbsG": 40,
+      "fatG": 14,
+      "fiberG": 3,
+      "servingSizeDesc": "1 dosa with potato filling",
+      "estimationDifficulty": "medium",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Semolina",
+        "Rice flour",
+        "Potato masala filling",
+        "Onion",
+        "Oil"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 5.5,
+      "healthScoreReasons": [
+        "Potato filling adds carbs",
+        "Fried crepe, oil-heavy",
+        "Good vegetable content"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "pesarattu",
+      "canonicalName": "Pesarattu",
+      "cuisineRegion": "Andhra",
+      "category": "breakfast",
+      "caloriesMin": 150,
+      "caloriesMax": 220,
+      "caloriesEstimate": 190,
+      "proteinG": 8,
+      "carbsG": 26,
+      "fatG": 5,
+      "fiberG": 4,
+      "servingSizeDesc": "1 dosa",
+      "estimationDifficulty": "easy",
+      "confidencePct": 65,
+      "commonIngredients": [
+        "Whole green gram (moong dal)",
+        "Ginger",
+        "Green chilli",
+        "Cumin"
+      ],
+      "allergens": [],
+      "healthScore": 7.5,
+      "healthScoreReasons": [
+        "High protein from moong dal",
+        "High fiber",
+        "Low oil if made well"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "MLA Pesarattu",
+          "synonymType": "alt_name"
+        }
+      ]
+    },
+    {
+      "slug": "onion-uthappam",
+      "canonicalName": "Onion Uthappam",
+      "cuisineRegion": "South Indian",
+      "category": "breakfast",
+      "caloriesMin": 180,
+      "caloriesMax": 260,
+      "caloriesEstimate": 220,
+      "proteinG": 5,
+      "carbsG": 32,
+      "fatG": 6,
+      "fiberG": 2,
+      "servingSizeDesc": "1 uthappam",
+      "estimationDifficulty": "easy",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Fermented rice-urad dal batter",
+        "Onion",
+        "Oil"
+      ],
+      "allergens": [],
+      "healthScore": 6.5,
+      "healthScoreReasons": [
+        "Fermented batter, easy to digest",
+        "Pan-fried, moderate oil",
+        "Good carb source"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "Uthappam",
+          "synonymType": "alt_name"
+        }
+      ]
+    },
+    {
+      "slug": "mysore-masala-dosa",
+      "canonicalName": "Mysore Masala Dosa",
+      "cuisineRegion": "Karnataka",
+      "category": "breakfast",
+      "caloriesMin": 320,
+      "caloriesMax": 450,
+      "caloriesEstimate": 380,
+      "proteinG": 7,
+      "carbsG": 46,
+      "fatG": 16,
+      "fiberG": 3,
+      "servingSizeDesc": "1 dosa",
+      "estimationDifficulty": "medium",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Rice-urad batter",
+        "Red chutney spread",
+        "Potato masala",
+        "Ghee"
+      ],
+      "allergens": [],
+      "healthScore": 5,
+      "healthScoreReasons": [
+        "Spicy chutney and potato filling add calories",
+        "Fried in ghee/oil",
+        "Rich, indulgent variant of dosa"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "vada",
+      "canonicalName": "Vada",
+      "cuisineRegion": "South Indian",
+      "category": "breakfast",
+      "caloriesMin": 180,
+      "caloriesMax": 260,
+      "caloriesEstimate": 220,
+      "proteinG": 6,
+      "carbsG": 20,
+      "fatG": 12,
+      "fiberG": 3,
+      "servingSizeDesc": "2 medu vadas",
+      "estimationDifficulty": "easy",
+      "confidencePct": 65,
+      "commonIngredients": [
+        "Urad dal",
+        "Onion",
+        "Curry leaves",
+        "Oil"
+      ],
+      "allergens": [],
+      "healthScore": 5,
+      "healthScoreReasons": [
+        "Deep fried",
+        "Good protein from lentils",
+        "High fat from frying oil"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "Medu Vada",
+          "synonymType": "alt_name"
+        }
+      ]
+    },
+    {
+      "slug": "gobi-65",
+      "canonicalName": "Gobi 65",
+      "cuisineRegion": "Andhra",
+      "category": "starter",
+      "caloriesMin": 250,
+      "caloriesMax": 380,
+      "caloriesEstimate": 310,
+      "proteinG": 6,
+      "carbsG": 24,
+      "fatG": 20,
+      "fiberG": 3,
+      "servingSizeDesc": "1 plate (~180g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Cauliflower",
+        "Corn flour",
+        "Red chilli",
+        "Curry leaves",
+        "Oil"
+      ],
+      "allergens": [],
+      "healthScore": 4,
+      "healthScoreReasons": [
+        "Deep fried batter-coated florets",
+        "Spicy, oil-heavy",
+        "Vegetable base offers some fiber"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "paneer-65",
+      "canonicalName": "Paneer 65",
+      "cuisineRegion": "Andhra",
+      "category": "starter",
+      "caloriesMin": 320,
+      "caloriesMax": 450,
+      "caloriesEstimate": 380,
+      "proteinG": 16,
+      "carbsG": 18,
+      "fatG": 26,
+      "fiberG": 1,
+      "servingSizeDesc": "1 plate (~180g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Paneer",
+        "Corn flour",
+        "Curry leaves",
+        "Red chilli",
+        "Oil"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 3.5,
+      "healthScoreReasons": [
+        "Deep fried paneer, high fat",
+        "Good protein from paneer",
+        "Spicy, calorie-dense"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "chilli-paneer",
+      "canonicalName": "Chilli Paneer",
+      "cuisineRegion": "Indo-Chinese",
+      "category": "starter",
+      "caloriesMin": 350,
+      "caloriesMax": 480,
+      "caloriesEstimate": 410,
+      "proteinG": 17,
+      "carbsG": 22,
+      "fatG": 27,
+      "fiberG": 2,
+      "servingSizeDesc": "1 plate (~200g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Paneer",
+        "Capsicum",
+        "Onion",
+        "Soy sauce",
+        "Corn flour",
+        "Oil"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        },
+        {
+          "type": "soy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 4,
+      "healthScoreReasons": [
+        "Fried paneer with sauce",
+        "High sodium from soy sauce",
+        "Good protein content"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "veg-manchurian",
+      "canonicalName": "Veg Manchurian",
+      "cuisineRegion": "Indo-Chinese",
+      "category": "starter",
+      "caloriesMin": 280,
+      "caloriesMax": 400,
+      "caloriesEstimate": 340,
+      "proteinG": 6,
+      "carbsG": 32,
+      "fatG": 18,
+      "fiberG": 3,
+      "servingSizeDesc": "1 plate (~200g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Mixed vegetables",
+        "Corn flour",
+        "Soy sauce",
+        "Garlic",
+        "Oil"
+      ],
+      "allergens": [
+        {
+          "type": "soy",
+          "certainty": "definite"
+        },
+        {
+          "type": "gluten",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 4.5,
+      "healthScoreReasons": [
+        "Fried vegetable balls in sauce",
+        "High sodium",
+        "Moderate fiber from vegetables"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "hara-bhara-kebab",
+      "canonicalName": "Hara Bhara Kebab",
+      "cuisineRegion": "North Indian",
+      "category": "starter",
+      "caloriesMin": 180,
+      "caloriesMax": 280,
+      "caloriesEstimate": 230,
+      "proteinG": 6,
+      "carbsG": 20,
+      "fatG": 12,
+      "fiberG": 4,
+      "servingSizeDesc": "4 pieces",
+      "estimationDifficulty": "easy",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Spinach",
+        "Green peas",
+        "Potato",
+        "Paneer",
+        "Spices"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 6.5,
+      "healthScoreReasons": [
+        "Vegetable-forward patty",
+        "Pan or shallow fried",
+        "Good fiber and micronutrients"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "honey-chilli-potato",
+      "canonicalName": "Honey Chilli Potato",
+      "cuisineRegion": "Indo-Chinese",
+      "category": "starter",
+      "caloriesMin": 350,
+      "caloriesMax": 500,
+      "caloriesEstimate": 420,
+      "proteinG": 4,
+      "carbsG": 55,
+      "fatG": 18,
+      "fiberG": 3,
+      "servingSizeDesc": "1 plate (~200g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Potato",
+        "Honey",
+        "Chilli sauce",
+        "Corn flour",
+        "Sesame",
+        "Oil"
+      ],
+      "allergens": [],
+      "healthScore": 3,
+      "healthScoreReasons": [
+        "Deep fried potato",
+        "High sugar from honey glaze",
+        "Calorie-dense snack"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "Honey Chilli Crispy Potatoes",
+          "synonymType": "alt_name"
+        }
+      ]
+    },
+    {
+      "slug": "kashmiri-dum-aloo",
+      "canonicalName": "Kashmiri Dum Aloo",
+      "cuisineRegion": "North Indian",
+      "category": "curry",
+      "caloriesMin": 320,
+      "caloriesMax": 450,
+      "caloriesEstimate": 380,
+      "proteinG": 6,
+      "carbsG": 30,
+      "fatG": 24,
+      "fiberG": 4,
+      "servingSizeDesc": "1 bowl (~250g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Baby potatoes",
+        "Yogurt",
+        "Cashew paste",
+        "Tomato",
+        "Ghee",
+        "Spices"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        },
+        {
+          "type": "nuts",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 5,
+      "healthScoreReasons": [
+        "Rich yogurt-cashew gravy",
+        "High fat from ghee/cashew",
+        "Good fiber from potato skin"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "malai-kofta",
+      "canonicalName": "Malai Kofta",
+      "cuisineRegion": "North Indian",
+      "category": "curry",
+      "caloriesMin": 400,
+      "caloriesMax": 550,
+      "caloriesEstimate": 470,
+      "proteinG": 10,
+      "carbsG": 32,
+      "fatG": 32,
+      "fiberG": 3,
+      "servingSizeDesc": "1 bowl (~250g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Paneer",
+        "Potato",
+        "Cream",
+        "Cashew paste",
+        "Tomato gravy"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        },
+        {
+          "type": "nuts",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 3.5,
+      "healthScoreReasons": [
+        "Fried koftas in rich cream gravy",
+        "High fat and calorie dense",
+        "Indulgent restaurant-style curry"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "paneer-tikka-masala",
+      "canonicalName": "Paneer Tikka Masala",
+      "cuisineRegion": "North Indian",
+      "category": "curry",
+      "caloriesMin": 380,
+      "caloriesMax": 520,
+      "caloriesEstimate": 440,
+      "proteinG": 18,
+      "carbsG": 20,
+      "fatG": 30,
+      "fiberG": 3,
+      "servingSizeDesc": "1 bowl (~250g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Paneer",
+        "Cream",
+        "Tomato",
+        "Butter",
+        "Spices"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 4.5,
+      "healthScoreReasons": [
+        "Grilled paneer in creamy tomato gravy",
+        "High protein",
+        "Rich, buttery gravy"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "methi-chaman",
+      "canonicalName": "Methi Chaman",
+      "cuisineRegion": "Kashmiri",
+      "category": "curry",
+      "caloriesMin": 280,
+      "caloriesMax": 380,
+      "caloriesEstimate": 330,
+      "proteinG": 15,
+      "carbsG": 12,
+      "fatG": 22,
+      "fiberG": 3,
+      "servingSizeDesc": "1 bowl (~250g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Paneer",
+        "Fenugreek leaves",
+        "Cream",
+        "Spices"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 6,
+      "healthScoreReasons": [
+        "Fenugreek leaves add micronutrients and fiber",
+        "Good protein from paneer",
+        "Moderate fat from cream"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "andhra-veg-kurma",
+      "canonicalName": "Andhra Veg Kurma",
+      "cuisineRegion": "Andhra",
+      "category": "curry",
+      "caloriesMin": 220,
+      "caloriesMax": 320,
+      "caloriesEstimate": 270,
+      "proteinG": 6,
+      "carbsG": 22,
+      "fatG": 15,
+      "fiberG": 5,
+      "servingSizeDesc": "1 bowl (~250g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Mixed vegetables",
+        "Coconut",
+        "Spices",
+        "Oil"
+      ],
+      "allergens": [],
+      "healthScore": 6.5,
+      "healthScoreReasons": [
+        "Vegetable-forward, good fiber",
+        "Coconut-based gravy adds fat",
+        "Moderate calorie curry"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "gutti-vankaya-kura",
+      "canonicalName": "Gutti Vankaya Kura",
+      "cuisineRegion": "Andhra",
+      "category": "curry",
+      "caloriesMin": 220,
+      "caloriesMax": 320,
+      "caloriesEstimate": 270,
+      "proteinG": 5,
+      "carbsG": 18,
+      "fatG": 16,
+      "fiberG": 6,
+      "servingSizeDesc": "1 bowl (~250g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Brinjal (eggplant)",
+        "Peanut",
+        "Sesame",
+        "Coconut",
+        "Spices"
+      ],
+      "allergens": [
+        {
+          "type": "nuts",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 6,
+      "healthScoreReasons": [
+        "Stuffed brinjal with peanut-sesame masala",
+        "High fiber from eggplant",
+        "Nutty gravy adds healthy fats"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "Gutti Vankai Kura",
+          "synonymType": "alt_name"
+        }
+      ]
+    },
+    {
+      "slug": "paneer-chettinad",
+      "canonicalName": "Paneer Chettinad",
+      "cuisineRegion": "Tamil",
+      "category": "curry",
+      "caloriesMin": 350,
+      "caloriesMax": 480,
+      "caloriesEstimate": 410,
+      "proteinG": 16,
+      "carbsG": 16,
+      "fatG": 28,
+      "fiberG": 3,
+      "servingSizeDesc": "1 bowl (~250g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Paneer",
+        "Coconut",
+        "Whole spices",
+        "Onion",
+        "Tomato"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 4.5,
+      "healthScoreReasons": [
+        "Spicy Chettinad masala, oil-heavy",
+        "Good protein from paneer",
+        "Coconut adds saturated fat"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "veg-dum-biryani",
+      "canonicalName": "Veg Dum Biryani",
+      "cuisineRegion": "Hyderabadi",
+      "category": "rice",
+      "caloriesMin": 420,
+      "caloriesMax": 580,
+      "caloriesEstimate": 500,
+      "proteinG": 9,
+      "carbsG": 70,
+      "fatG": 16,
+      "fiberG": 5,
+      "servingSizeDesc": "1 plate (~350g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Basmati rice",
+        "Mixed vegetables",
+        "Saffron",
+        "Ghee",
+        "Fried onions",
+        "Spices"
+      ],
+      "allergens": [],
+      "healthScore": 5.5,
+      "healthScoreReasons": [
+        "Rice-heavy, good carb source",
+        "Ghee and fried onions add fat",
+        "Vegetables provide fiber and micronutrients"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "mushroom-dum-biryani",
+      "canonicalName": "Mushroom Dum Biryani",
+      "cuisineRegion": "Hyderabadi",
+      "category": "rice",
+      "caloriesMin": 420,
+      "caloriesMax": 580,
+      "caloriesEstimate": 500,
+      "proteinG": 10,
+      "carbsG": 68,
+      "fatG": 16,
+      "fiberG": 4,
+      "servingSizeDesc": "1 plate (~350g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Basmati rice",
+        "Mushroom",
+        "Ghee",
+        "Fried onions",
+        "Spices"
+      ],
+      "allergens": [],
+      "healthScore": 5.5,
+      "healthScoreReasons": [
+        "Mushroom adds protein and umami",
+        "Rice-based, high carb",
+        "Ghee-cooked, moderate fat"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "donne-paneer-biryani",
+      "canonicalName": "Donne Paneer Biryani",
+      "cuisineRegion": "Karnataka",
+      "category": "rice",
+      "caloriesMin": 480,
+      "caloriesMax": 640,
+      "caloriesEstimate": 560,
+      "proteinG": 16,
+      "carbsG": 66,
+      "fatG": 22,
+      "fiberG": 4,
+      "servingSizeDesc": "1 donne (leaf bowl, ~350g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Basmati rice",
+        "Paneer",
+        "Ghee",
+        "Spices"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 4.5,
+      "healthScoreReasons": [
+        "Rich, ghee-heavy Karnataka-style biryani",
+        "Good protein from paneer",
+        "High calorie, festive dish"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "jeera-rice",
+      "canonicalName": "Jeera Rice",
+      "cuisineRegion": "North Indian",
+      "category": "rice",
+      "caloriesMin": 220,
+      "caloriesMax": 320,
+      "caloriesEstimate": 270,
+      "proteinG": 4,
+      "carbsG": 45,
+      "fatG": 7,
+      "fiberG": 1,
+      "servingSizeDesc": "1 bowl (~250g)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 65,
+      "commonIngredients": [
+        "Basmati rice",
+        "Cumin",
+        "Ghee"
+      ],
+      "allergens": [],
+      "healthScore": 6,
+      "healthScoreReasons": [
+        "Simple, lightly spiced rice",
+        "Moderate fat from ghee tempering",
+        "Good carbohydrate source"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "special-curd-rice",
+      "canonicalName": "Special Curd Rice",
+      "cuisineRegion": "South Indian",
+      "category": "rice",
+      "caloriesMin": 220,
+      "caloriesMax": 320,
+      "caloriesEstimate": 260,
+      "proteinG": 7,
+      "carbsG": 38,
+      "fatG": 6,
+      "fiberG": 1,
+      "servingSizeDesc": "1 bowl (~250g)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 65,
+      "commonIngredients": [
+        "Rice",
+        "Yogurt",
+        "Curry leaves",
+        "Mustard seeds",
+        "Pomegranate"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 7,
+      "healthScoreReasons": [
+        "Probiotic yogurt aids digestion",
+        "Cooling, light meal ender",
+        "Low fat, moderate calorie"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "Curd Rice",
+          "synonymType": "alt_name"
+        }
+      ]
+    },
+    {
+      "slug": "veg-hakka-noodles",
+      "canonicalName": "Veg Hakka Noodles",
+      "cuisineRegion": "Indo-Chinese",
+      "category": "chinese",
+      "caloriesMin": 380,
+      "caloriesMax": 520,
+      "caloriesEstimate": 440,
+      "proteinG": 9,
+      "carbsG": 62,
+      "fatG": 14,
+      "fiberG": 4,
+      "servingSizeDesc": "1 plate (~300g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Noodles",
+        "Mixed vegetables",
+        "Soy sauce",
+        "Garlic",
+        "Oil"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "definite"
+        },
+        {
+          "type": "soy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 5,
+      "healthScoreReasons": [
+        "Stir-fried, moderate oil",
+        "Vegetables add fiber",
+        "High sodium from soy sauce"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "Veg Soft Noodles",
+          "synonymType": "alt_name"
+        }
+      ]
+    },
+    {
+      "slug": "schezwan-noodles",
+      "canonicalName": "Schezwan Noodles",
+      "cuisineRegion": "Indo-Chinese",
+      "category": "chinese",
+      "caloriesMin": 400,
+      "caloriesMax": 550,
+      "caloriesEstimate": 470,
+      "proteinG": 9,
+      "carbsG": 64,
+      "fatG": 16,
+      "fiberG": 3,
+      "servingSizeDesc": "1 plate (~300g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Noodles",
+        "Schezwan sauce",
+        "Vegetables",
+        "Garlic",
+        "Oil"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "definite"
+        },
+        {
+          "type": "soy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 4.5,
+      "healthScoreReasons": [
+        "Spicy schezwan sauce, high sodium",
+        "Stir-fried in oil",
+        "Rice/wheat noodle base"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "gobi-manchurian",
+      "canonicalName": "Gobi Manchurian",
+      "cuisineRegion": "Indo-Chinese",
+      "category": "chinese",
+      "caloriesMin": 320,
+      "caloriesMax": 460,
+      "caloriesEstimate": 390,
+      "proteinG": 6,
+      "carbsG": 34,
+      "fatG": 20,
+      "fiberG": 3,
+      "servingSizeDesc": "1 plate (~200g)",
+      "estimationDifficulty": "medium",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Cauliflower",
+        "Corn flour",
+        "Soy sauce",
+        "Garlic",
+        "Oil",
+        "Gravy"
+      ],
+      "allergens": [
+        {
+          "type": "soy",
+          "certainty": "definite"
+        },
+        {
+          "type": "gluten",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 4,
+      "healthScoreReasons": [
+        "Fried cauliflower in sauce",
+        "High sodium from soy-based gravy",
+        "Moderate fiber from vegetable base"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "malabar-paratha",
+      "canonicalName": "Malabar Paratha",
+      "cuisineRegion": "Kerala",
+      "category": "bread",
+      "caloriesMin": 280,
+      "caloriesMax": 380,
+      "caloriesEstimate": 330,
+      "proteinG": 5,
+      "carbsG": 40,
+      "fatG": 15,
+      "fiberG": 2,
+      "servingSizeDesc": "1 paratha",
+      "estimationDifficulty": "easy",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Refined flour (maida)",
+        "Oil/ghee"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 4,
+      "healthScoreReasons": [
+        "Layered, pan-fried in oil",
+        "Refined flour, low fiber",
+        "High fat from layering"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "Kerala Parotta",
+          "synonymType": "regional_name"
+        }
+      ]
+    },
+    {
+      "slug": "aloo-paratha",
+      "canonicalName": "Aloo Paratha",
+      "cuisineRegion": "North Indian",
+      "category": "bread",
+      "caloriesMin": 280,
+      "caloriesMax": 380,
+      "caloriesEstimate": 330,
+      "proteinG": 6,
+      "carbsG": 46,
+      "fatG": 12,
+      "fiberG": 3,
+      "servingSizeDesc": "1 paratha",
+      "estimationDifficulty": "easy",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Whole wheat flour",
+        "Potato filling",
+        "Ghee",
+        "Spices"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 5.5,
+      "healthScoreReasons": [
+        "Whole wheat base, better fiber than refined-flour breads",
+        "Potato filling adds carbs",
+        "Ghee-cooked, moderate fat"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "bullet-naan",
+      "canonicalName": "Bullet Naan",
+      "cuisineRegion": "North Indian",
+      "category": "bread",
+      "caloriesMin": 220,
+      "caloriesMax": 320,
+      "caloriesEstimate": 270,
+      "proteinG": 6,
+      "carbsG": 42,
+      "fatG": 6,
+      "fiberG": 2,
+      "servingSizeDesc": "1 naan",
+      "estimationDifficulty": "easy",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Refined flour",
+        "Yeast/yogurt",
+        "Green chilli",
+        "Garlic",
+        "Butter"
+      ],
+      "allergens": [
+        {
+          "type": "gluten",
+          "certainty": "definite"
+        },
+        {
+          "type": "dairy",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 5,
+      "healthScoreReasons": [
+        "Tandoor-baked, moderate fat",
+        "Spicy chilli stuffing",
+        "Refined flour base"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "Chilli Naan",
+          "synonymType": "alt_name"
+        }
+      ]
+    },
+    {
+      "slug": "masala-papad",
+      "canonicalName": "Masala Papad",
+      "cuisineRegion": "South Indian",
+      "category": "side",
+      "caloriesMin": 90,
+      "caloriesMax": 150,
+      "caloriesEstimate": 120,
+      "proteinG": 3,
+      "carbsG": 14,
+      "fatG": 5,
+      "fiberG": 2,
+      "servingSizeDesc": "2 pcs",
+      "estimationDifficulty": "easy",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Lentil papad",
+        "Onion",
+        "Tomato",
+        "Chaat masala",
+        "Lemon"
+      ],
+      "allergens": [],
+      "healthScore": 6.5,
+      "healthScoreReasons": [
+        "Roasted or fried thin lentil wafer",
+        "Fresh onion-tomato topping adds fiber",
+        "Light snack/side"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "boondi-raita",
+      "canonicalName": "Boondi Raita",
+      "cuisineRegion": "North Indian",
+      "category": "side",
+      "caloriesMin": 130,
+      "caloriesMax": 190,
+      "caloriesEstimate": 160,
+      "proteinG": 5,
+      "carbsG": 14,
+      "fatG": 8,
+      "fiberG": 1,
+      "servingSizeDesc": "1 small bowl (~150g)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 65,
+      "commonIngredients": [
+        "Yogurt",
+        "Fried gram flour boondi",
+        "Cumin",
+        "Spices"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        },
+        {
+          "type": "gluten",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 6,
+      "healthScoreReasons": [
+        "Yogurt base, probiotic and cooling",
+        "Fried boondi adds some fat",
+        "Good accompaniment, moderate calorie"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "matka-kulfi",
+      "canonicalName": "Matka Kulfi",
+      "cuisineRegion": "North Indian",
+      "category": "dessert",
+      "caloriesMin": 200,
+      "caloriesMax": 300,
+      "caloriesEstimate": 250,
+      "proteinG": 5,
+      "carbsG": 26,
+      "fatG": 12,
+      "fiberG": 0,
+      "servingSizeDesc": "1 matka (~100g)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Milk",
+        "Sugar",
+        "Cardamom",
+        "Pistachio",
+        "Saffron"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        },
+        {
+          "type": "nuts",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 4,
+      "healthScoreReasons": [
+        "Dense, milk-solid based frozen dessert",
+        "High sugar content",
+        "Rich in calcium from milk"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "mango-delight",
+      "canonicalName": "Mango Delight",
+      "cuisineRegion": "North Indian",
+      "category": "dessert",
+      "caloriesMin": 220,
+      "caloriesMax": 320,
+      "caloriesEstimate": 270,
+      "proteinG": 3,
+      "carbsG": 42,
+      "fatG": 9,
+      "fiberG": 2,
+      "servingSizeDesc": "1 bowl (~150g)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 55,
+      "commonIngredients": [
+        "Mango pulp",
+        "Cream",
+        "Sugar"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "possible"
+        }
+      ],
+      "healthScore": 5,
+      "healthScoreReasons": [
+        "Fresh fruit adds vitamins and fiber",
+        "Cream and sugar add calories",
+        "Lighter than fried desserts"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "filter-coffee",
+      "canonicalName": "Filter Coffee",
+      "cuisineRegion": "South Indian",
+      "category": "beverage",
+      "caloriesMin": 60,
+      "caloriesMax": 100,
+      "caloriesEstimate": 80,
+      "proteinG": 2,
+      "carbsG": 10,
+      "fatG": 3,
+      "fiberG": 0,
+      "servingSizeDesc": "1 tumbler (~150ml)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 70,
+      "commonIngredients": [
+        "Coffee decoction",
+        "Milk",
+        "Sugar"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 6,
+      "healthScoreReasons": [
+        "Milk-based, moderate sugar",
+        "Small serving size",
+        "Caffeine content, low calorie overall"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "masala-chai",
+      "canonicalName": "Masala Chai",
+      "cuisineRegion": "Indian",
+      "category": "beverage",
+      "caloriesMin": 60,
+      "caloriesMax": 100,
+      "caloriesEstimate": 80,
+      "proteinG": 2,
+      "carbsG": 11,
+      "fatG": 2,
+      "fiberG": 0,
+      "servingSizeDesc": "1 cup (~150ml)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 70,
+      "commonIngredients": [
+        "Tea leaves",
+        "Milk",
+        "Sugar",
+        "Ginger",
+        "Cardamom",
+        "Cloves"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 6,
+      "healthScoreReasons": [
+        "Spiced milk tea, moderate sugar",
+        "Small serving, low calorie",
+        "Warming spices aid digestion"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "Masala Tea",
+          "synonymType": "alt_name"
+        }
+      ]
+    },
+    {
+      "slug": "sweet-lassi",
+      "canonicalName": "Sweet Lassi",
+      "cuisineRegion": "North Indian",
+      "category": "beverage",
+      "caloriesMin": 200,
+      "caloriesMax": 300,
+      "caloriesEstimate": 250,
+      "proteinG": 6,
+      "carbsG": 38,
+      "fatG": 6,
+      "fiberG": 0,
+      "servingSizeDesc": "1 glass (~250ml)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 65,
+      "commonIngredients": [
+        "Yogurt",
+        "Sugar",
+        "Water/milk"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 5,
+      "healthScoreReasons": [
+        "High sugar content",
+        "Yogurt base, probiotic benefit",
+        "Calorie-dense beverage"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "mango-lassi",
+      "canonicalName": "Mango Lassi",
+      "cuisineRegion": "North Indian",
+      "category": "beverage",
+      "caloriesMin": 220,
+      "caloriesMax": 320,
+      "caloriesEstimate": 270,
+      "proteinG": 6,
+      "carbsG": 42,
+      "fatG": 6,
+      "fiberG": 1,
+      "servingSizeDesc": "1 glass (~250ml)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 65,
+      "commonIngredients": [
+        "Yogurt",
+        "Mango pulp",
+        "Sugar"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 5.5,
+      "healthScoreReasons": [
+        "Fruit adds vitamins and some fiber",
+        "High natural and added sugar",
+        "Yogurt base, probiotic benefit"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "buttermilk",
+      "canonicalName": "Buttermilk",
+      "cuisineRegion": "South Indian",
+      "category": "beverage",
+      "caloriesMin": 40,
+      "caloriesMax": 80,
+      "caloriesEstimate": 60,
+      "proteinG": 3,
+      "carbsG": 5,
+      "fatG": 2,
+      "fiberG": 0,
+      "servingSizeDesc": "1 glass (~250ml)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 70,
+      "commonIngredients": [
+        "Yogurt",
+        "Water",
+        "Curry leaves",
+        "Cumin",
+        "Ginger"
+      ],
+      "allergens": [
+        {
+          "type": "dairy",
+          "certainty": "definite"
+        }
+      ],
+      "healthScore": 8,
+      "healthScoreReasons": [
+        "Low calorie, hydrating",
+        "Probiotic and digestive benefits",
+        "Minimal added sugar"
+      ],
+      "source": "llm_estimate",
+      "synonyms": [
+        {
+          "synonym": "Majjiga",
+          "synonymType": "regional_name"
+        },
+        {
+          "synonym": "Masala Chaas",
+          "synonymType": "regional_name"
+        }
+      ]
+    },
+    {
+      "slug": "sweet-corn-soup",
+      "canonicalName": "Sweet Corn Soup",
+      "cuisineRegion": "Indo-Chinese",
+      "category": "soup",
+      "caloriesMin": 120,
+      "caloriesMax": 180,
+      "caloriesEstimate": 150,
+      "proteinG": 4,
+      "carbsG": 24,
+      "fatG": 4,
+      "fiberG": 2,
+      "servingSizeDesc": "1 bowl (~250ml)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 60,
+      "commonIngredients": [
+        "Sweet corn",
+        "Corn flour",
+        "Vegetable stock"
+      ],
+      "allergens": [],
+      "healthScore": 6.5,
+      "healthScoreReasons": [
+        "Light, broth-based soup",
+        "Corn adds fiber and natural sweetness",
+        "Thickened with corn flour, moderate carbs"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
+    },
+    {
+      "slug": "lemon-coriander-soup",
+      "canonicalName": "Lemon Coriander Soup",
+      "cuisineRegion": "Indo-Chinese",
+      "category": "soup",
+      "caloriesMin": 60,
+      "caloriesMax": 110,
+      "caloriesEstimate": 85,
+      "proteinG": 2,
+      "carbsG": 12,
+      "fatG": 2,
+      "fiberG": 1,
+      "servingSizeDesc": "1 bowl (~250ml)",
+      "estimationDifficulty": "easy",
+      "confidencePct": 65,
+      "commonIngredients": [
+        "Vegetable stock",
+        "Lemon",
+        "Coriander",
+        "Garlic",
+        "Corn flour"
+      ],
+      "allergens": [],
+      "healthScore": 8,
+      "healthScoreReasons": [
+        "Very light, low calorie",
+        "Vitamin C from lemon and coriander",
+        "Clear broth base, minimal fat"
+      ],
+      "source": "llm_estimate",
+      "synonyms": []
     }
   ]
 }

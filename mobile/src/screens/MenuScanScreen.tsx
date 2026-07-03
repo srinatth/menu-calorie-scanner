@@ -29,5 +29,5 @@ export function MenuScanScreen({ navigation }: Props) {
     );
   }
 
-  return <CameraCaptureView onCapture={handleCapture} />;
+  return <CameraCaptureView onCapture={handleCapture} onClose={() => navigation.goBack()} />;
 }

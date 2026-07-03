@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Camera, useCameraDevice, useCameraPermission, useCodeScanner } from 'react-native-vision-camera';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../navigation/types';
 import { EmptyState } from '../components/common/EmptyState';
 import { LoadingSpinner } from '../components/common/LoadingSpinner';
 import { useQrMenuResolve } from '../hooks/queries/useQrMenuResolve';
-import { colors } from '../theme';
+import { colors, spacing } from '../theme';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'QRScan'>;
 
 export function QRScanScreen({ navigation }: Props) {
   const device = useCameraDevice('back');
+  const insets = useSafeAreaInsets();
   const { hasPermission, requestPermission } = useCameraPermission();
   const resolveMutation = useQrMenuResolve();
   const [handled, setHandled] = useState(false);
@@ -47,6 +49,9 @@ export function QRScanScreen({ navigation }: Props) {
   return (
     <View style={styles.container}>
       <Camera style={StyleSheet.absoluteFill} device={device} isActive codeScanner={codeScanner} />
+      <Pressable style={[styles.backButton, { top: insets.top + spacing.sm }]} onPress={() => navigation.goBack()}>
+        <Text style={styles.backButtonLabel}>{'‹'} Back</Text>
+      </Pressable>
       {resolveMutation.isPending ? (
         <View style={styles.overlay}>
           <LoadingSpinner label="Reading QR menu…" />
@@ -67,4 +72,13 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.5)',
     justifyContent: 'center',
   },
+  backButton: {
+    position: 'absolute',
+    left: spacing.lg,
+    paddingVertical: spacing.sm,
+    paddingHorizontal: spacing.md,
+    borderRadius: 999,
+    backgroundColor: 'rgba(0,0,0,0.45)',
+  },
+  backButtonLabel: { color: colors.cardBackground, fontSize: 16, fontWeight: '600' },
 });

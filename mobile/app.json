@@ -23,7 +23,8 @@
       "permissions": [
         "CAMERA",
         "android.permission.CAMERA"
-      ]
+      ],
+      "package": "com.hunt097.menucaloriescanner"
     },
     "web": {
       "favicon": "./assets/favicon.png"

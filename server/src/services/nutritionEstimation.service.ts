@@ -54,6 +54,11 @@ export async function estimateNutrition(
   const adapter = getNutritionEstimatorAdapter();
   const result = await adapter.estimate({ dishName, restaurantContext });
 
-  await setCached(cacheKey, dishName, restaurantContext, result);
+  // Only cache confident resolutions. An 'unresolved' result can be transient
+  // (e.g. a free-tier LLM 429 in the OpenRouter estimator), and caching it would
+  // pin the failure so future scans never retry the dish.
+  if (result.status === 'resolved') {
+    await setCached(cacheKey, dishName, restaurantContext, result);
+  }
   return result;
 }

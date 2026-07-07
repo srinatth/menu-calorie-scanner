@@ -1,5 +1,16 @@
+// A bare trailing number is treated as a price only if it's 3-4 digits (≥100).
+// A trailing *two*-digit number is deliberately kept: "65" is a whole class of
+// Indian dish names (Gobi 65, Paneer 65, Idli 65, Chicken 65), not a price —
+// stripping it both loses the dish's identity and causes wrong fuzzy matches
+// ("Paneer 65" → "Paneer" → "Paneer Butter Masala"). Currency-prefixed and
+// "50/-"-style prices are still stripped at any digit count.
 const PRICE_LINE_RE =
-  /(?:rs\.?|inr|₹)\s?\d+(?:[.,]\d+)?|\$\s?\d+(?:[.,]\d{1,2})?|\b\d{2,4}\s*\/-|\b\d{2,4}(?=\s*$)/i;
+  /(?:rs\.?|inr|₹)\s?\d+(?:[.,]\d+)?|\$\s?\d+(?:[.,]\d{1,2})?|\b\d{2,4}\s*\/-|\b\d{3,4}(?=\s*$)/i;
+// OCR misreads the little veg/spicy icons next to dish names as trailing junk
+// ("Paneer Fry*", "Chinta Chiguru Paneer ✔", "Idli Fries 1:"). Strip trailing
+// symbols and a lone single digit — but never a 2-digit suffix like "65".
+const TRAILING_SYMBOLS_RE = /[\s.:;*•·|✓✔★☆–—-]+$/;
+const TRAILING_LONE_DIGIT_RE = /\s+\d$/;
 const NOISE_KEYWORDS = ['gst', 'service charge', 'tax', 'taxes extra', 'all prices', 'terms and conditions'];
 // Menu section headers and restaurant branding text ("Salads", "Main Courses", "Restaurant") are
 // often Title Case rather than ALL-CAPS, so HEADING_RE below won't catch them — matched here by
@@ -31,7 +42,13 @@ export function cleanMenuText(rawText: string): string[] {
     if (HEADING_RE.test(line) && !/[a-z]/.test(line)) continue;
 
     let candidate = line.replace(PRICE_LINE_RE, '').trim();
-    candidate = candidate.replace(/[.\-–—]+$/, '').trim();
+    // Repeatedly peel trailing icon-misread junk until the name is stable, e.g.
+    // "Ishtaa Spl Chilli Paneer (Dry) 1:" -> "Ishtaa Spl Chilli Paneer (Dry)".
+    let previous: string;
+    do {
+      previous = candidate;
+      candidate = candidate.replace(TRAILING_SYMBOLS_RE, '').replace(TRAILING_LONE_DIGIT_RE, '').trim();
+    } while (candidate !== previous);
 
     if (candidate.length < 2) continue;
     if (/^\d+$/.test(candidate)) continue;
